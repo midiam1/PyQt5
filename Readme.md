@@ -1,0 +1,1 @@
+Prácticas de python con QtPy5 en Ubuntu 18
