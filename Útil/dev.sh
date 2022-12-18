@@ -15,6 +15,8 @@
 # Qt Creator
 # Qt Designer
 
+# Django
+
 
 
 # Limpio pantalla
@@ -127,6 +129,18 @@ then
 	sudo apt -y install pyqt5-dev-tools
 else
 	echo " Pyuic5 està instalado "
+
+	exit
+fi
+
+# Django
+
+if ! command -v python3-django &> /dev/null
+then
+	echo " Django no està instalado, procedo a instalarlo "
+	sudo apt -y install python3-django
+else
+	echo " Django està instalado "
 
 	exit
 fi
