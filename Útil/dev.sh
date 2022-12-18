@@ -129,8 +129,7 @@ then
 	sudo apt -y install pyqt5-dev-tools
 else
 	echo " Pyuic5 està instalado "
-
-	exit
+		
 fi
 
 # Django
