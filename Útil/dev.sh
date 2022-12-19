@@ -23,6 +23,11 @@
 
 	clear
 
+# Update y Upgrade
+
+sudo apt -y update
+sudo apt -y upgrade
+
 # Git
 
 if ! command -v git &> /dev/null
