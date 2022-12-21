@@ -5,6 +5,7 @@
 - **Kedevelop python**
 - **Qt Creator**
 - **Qt Designer**
+- **PyQt5**
 - **MC**
 - **Syncthing**
 
